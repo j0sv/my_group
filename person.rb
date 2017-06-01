@@ -1,14 +1,3 @@
-=begin
-#create array
-personer = []
-
-#add 20 person to array
-20.times do personer.push Person.new() end
-
-#Print all person in array
-personer.each do |person| print person end
-=end
-
 class Person
   #25 most common first name in Sweden for wommen
   @@womenName = ['Maria', 'Anna', 'Margareta', 'Elisabeth', 'Eva', 'Kristina', 'Birgitta', 'Karin', 'Elisabet',
@@ -48,3 +37,13 @@ def to_s()
 end
 
 end
+
+
+#create array
+personer = []
+
+#add 20 person to array
+20.times do personer.push Person.new() end
+
+#Print all person in array
+personer.each do |person| print person end
